@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cabin&family=Staatliches&display=swap');
+
+body{
+    margin: 0;
+    background-color:  #5d6d7e ;
+}
+.container{
+   
+   
+    text-align: center;
+}
+.header{
+    height: 100px;
+    background-color:  #2e86c1 ;
+    width: 100%;
+    margin-top: -25px;
+}
+.heading{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 0.2rem;
+}
+.sub-heading{
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+}
+.content{
+    background-image: url('./bgimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+label{
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+}
+#connect{
+    background-color:  #e74c3c ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+#send{
+    background-color:   #2ecc71  ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+#messages{
+    font-size: 25px;
+    font-weight: 700;
+    color: #f1c40f ;
+}
